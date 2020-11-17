@@ -15,10 +15,9 @@ export default class ChromeBoisDomain extends Component {
   };
 
   handleKey = (event) => {
-    console.log(event.target)
-    if (event.keyCode === 65) {
+    if (event.key === "a") {
       resize("+");
-    } else if (event.keyCode === 83) {
+    } else if (event.key === "s") {
       resize("-");
     }
   };
