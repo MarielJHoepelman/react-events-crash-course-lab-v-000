@@ -15,6 +15,7 @@ export default class ChromeBoisDomain extends Component {
   };
 
   handleKey = (event) => {
+    console.log(event.target)
     if (event.keyCode === 65) {
       resize("+");
     } else if (event.keyCode === 83) {
